@@ -1,0 +1,28 @@
+input[type=submit] {
+    padding: 5px 30px;
+    margin: 0px 20px;
+    cursor: pointer;
+    position: relative;
+    float: left;
+    border-color: lightcoral;
+    color: lightcoral;
+}
+
+input[type=reset] {
+    padding: 5px 30px;
+    margin: 0px 20px;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    border-color: lightcoral;
+    color: lightcoral;
+}
+#card{
+    background-color: lightblue;
+    border-color:lightblue ;
+}
+
+#header {
+    background-color: lightblue;
+    border-color:lightblue;
+}

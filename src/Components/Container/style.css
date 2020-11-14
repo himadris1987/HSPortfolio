@@ -1,0 +1,30 @@
+.container {
+    background-color: lightblue;
+    padding: 0px 0 10px 0;
+    overflow: hidden;
+    display: block;
+    position: relative;   
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        max-width: 768px;
+    }
+
+    #maincontainer {
+        padding: 0px 0px 0px;
+    }  
+}
+
+@media screen and (max-width: 770px) {
+    #maincontainer {
+        overflow: auto;
+    }
+}
