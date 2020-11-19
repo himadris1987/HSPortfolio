@@ -6,6 +6,8 @@ import About from "./Pages/About";
 import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
 import Skills from "./Pages/Skills";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App (){
   return (
