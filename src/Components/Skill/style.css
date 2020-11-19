@@ -7,5 +7,22 @@ body {background-color: lightcoral;};
     column-width: 200px;
 }
 #row {
-    size:100px;
+    
+    border-color: lightcoral;
+}
+
+#jumbo {
+    background-color: lightblue;
+}
+
+h2{
+    
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+}
+h4{
+    text-decoration: underline;
 }

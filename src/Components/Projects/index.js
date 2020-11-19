@@ -6,6 +6,8 @@ import Buy from "../../Assets/Buy.png";
 import Final from "../../Assets/Final.png";
 import Final2 from "../../Assets/Final2.0.png";
 import "./style.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Projects(props) {
     return (
