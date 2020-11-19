@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import About from "./Pages/About";
 import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
+import Skills from "./Pages/Skills";
 
 function App (){
   return (
@@ -13,6 +14,7 @@ function App (){
       <Switch>
         <Route exact path = "/" component = {About}/>
         <Route exact path = "/About" component = {About}/>
+        <Route exact path = "/Skills" component = {Skills}/>
         <Route exact path = "/Portfolio" component = {Portfolio}/>
         <Route exact path = "/Contact" component = {Contact}/>
       </Switch>

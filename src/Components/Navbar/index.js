@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 function Navbar(props) {
-    const links = ["About", "Portfolio", "Contact"];
+    const links = ["About", "Skills", "Portfolio", "Contact"];
     const navLinks = links.map(link => {
         return (
             <li><a href={"/" + link}>{link}</a></li>

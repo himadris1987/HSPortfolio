@@ -7,14 +7,14 @@ import "./style.css";
 function ContactForm(props) {
 
     return (
-<Jumbotron>
+<Jumbotron id ="jumbo">
     Welcome to my Contact Page. Below you will find my contact details and links to my github and LinkedIn profiles.
     
-        <ListGroup>
-        <ListGroup.Item>Contact Information</ListGroup.Item>
-        <ListGroup.Item>Location: Sacramento, California 95824</ListGroup.Item>
-        <ListGroup.Item>Phone: 916-396-4514</ListGroup.Item>
-        <ListGroup.Item>Email: himadris@gmail.com</ListGroup.Item>
+ <ListGroup>
+        <ListGroup.Item id ="list">Contact Information</ListGroup.Item>
+        <ListGroup.Item id ="list">Location: Sacramento, California 95824</ListGroup.Item>
+        <ListGroup.Item id="list">Phone: 916-396-4514</ListGroup.Item>
+        <ListGroup.Item id="list">Email: himadris@gmail.com</ListGroup.Item>
       </ListGroup>
 </Jumbotron>
     );

@@ -1,0 +1,11 @@
+body {background-color: lightcoral;};
+
+#lang{
+    column-width:100px;
+}
+.Col{
+    column-width: 200px;
+}
+#row {
+    size:100px;
+}

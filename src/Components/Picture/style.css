@@ -3,7 +3,8 @@ img {
     height: Auto;
     
 }    /* height: 25%; */
-#jumbo {text-align: center;}
+#jumbo {text-align: center;
+        background-color: lightblue;}
 
 #card {
     background-color: lightblue;

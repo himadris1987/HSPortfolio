@@ -4,7 +4,9 @@ nav {
     overflow: auto;
     background-repeat: no-repeat;
 }
-
+nav{
+    text-align:right;
+}
 nav {
     display: flex;
     justify-content: space-between;
