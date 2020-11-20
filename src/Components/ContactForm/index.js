@@ -13,7 +13,8 @@ function ContactForm(props) {
 
     return (
 <Jumbotron id ="jumbo">
-    Welcome to my Contact Page. Below you will find my contact details and links to my github and LinkedIn profiles.
+   <h1> Welcome to my Contact Page! </h1>
+   <p> Below you will find my contact details and links to my github and LinkedIn profiles.</p>
     
  <ListGroup>
         <ListGroup.Item id ="list">Contact Information</ListGroup.Item>
@@ -24,10 +25,10 @@ function ContactForm(props) {
         </ListGroup.Item>
 </ListGroup>
 <Container>
-    Find me on these websites!
+    <h5>Find me on these websites!</h5>
     <Row>
-        <Col><AiFillGithub size={100} onClick={() => window.open(githublink, "_blank")}/></Col>
-        <Col><AiFillLinkedin size ={100} onClick={() => window.open(linkedinlink, "_blank")}/></Col>
+        <Col id="git"><AiFillGithub size={100} onClick={() => window.open(githublink, "_blank")}/></Col>
+        <Col id="in"><AiFillLinkedin size ={100} onClick={() => window.open(linkedinlink, "_blank")}/></Col>
     </Row>
 </Container>
 

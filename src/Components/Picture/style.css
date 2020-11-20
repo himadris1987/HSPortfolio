@@ -4,7 +4,9 @@ img {
     
 }    /* height: 25%; */
 #jumbo {text-align: center;
-        background-color: lightblue;}
+        background-color: lightblue;
+        }
+        
 
 #card {
     background-color: lightblue;
@@ -12,6 +14,9 @@ img {
 
 #header {
     border-color: lightblue;
+}
+h1{
+    font-weight: bold;
 }
 
 

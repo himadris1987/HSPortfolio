@@ -7,12 +7,19 @@ import Final from "../../Assets/Final.png";
 import Final2 from "../../Assets/Final2.0.png";
 import "./style.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Jumbotron from "react-bootstrap/Jumbotron";
 
 
 function Projects(props) {
     return (
+     <Jumbotron id="jumb">
     <Card id = "card">
-        <Card.Header id="header">Projects</Card.Header>
+    <h1>Welcome to my projects page!</h1>
+    <p>Below you will find the projects that I completed for the Bootcamp, a brief description, and links
+        to both the application and the actual code
+    </p>
+    
+        <Card.Header id="header"></Card.Header>
         <ul className="list-unstyled">
             <Media as="li">
                 <img
@@ -80,6 +87,8 @@ function Projects(props) {
             </Media>
         </ul>
         </Card>
+        </Jumbotron>
+
     )
 };
 

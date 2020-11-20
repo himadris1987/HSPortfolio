@@ -10,7 +10,8 @@ import profile from "../../Assets/profile.jpg"
 function Picture() {
     return (
 <Jumbotron id="jumbo">
-WELCOME TO MY PROFILE!!!
+
+<h1>WELCOME TO MY PROFILE!!!</h1>
 <Card id ="card">
 <Card.Header id ="header"></Card.Header>
 
@@ -32,7 +33,7 @@ WELCOME TO MY PROFILE!!!
                 </p>
                 <p>
 
-                    In this portfolio page, that uses many React Elements, you will find some of the work I have completed as part of the bootcamp along with a contact
+                    In this portfolio page, that uses many React Elements, you will find the skills I have aquired, some of the work I have completed as part of the bootcamp, and a contact
                     page, should you like to contact me.
                 </p>
                 <p>

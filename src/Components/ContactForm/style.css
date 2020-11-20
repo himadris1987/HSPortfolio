@@ -30,3 +30,12 @@ input[type=reset] {
 #list {
     background-color: lightblue;
 }
+#git{
+    cursor:pointer;
+}
+#in{
+    cursor:pointer;
+}
+h5{
+    font-weight: bold;
+}
